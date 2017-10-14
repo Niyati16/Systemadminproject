@@ -1,0 +1,937 @@
+Oct 14 16:47:46 praggy-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="619" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 14 16:49:44 praggy-VirtualBox anacron[662]: Job `cron.daily' terminated (mailing output)
+Oct 14 16:49:44 praggy-VirtualBox anacron[662]: sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+Oct 14 16:49:44 praggy-VirtualBox postfix/sendmail[25110]: fatal: open /etc/postfix/main.cf: No such file or directory
+Oct 14 16:49:44 praggy-VirtualBox anacron[662]: Tried to mail output of job `cron.daily', but mailer process (/usr/sbin/sendmail) exited with ststus 75
+Oct 14 16:49:44 praggy-VirtualBox anacron[662]: anacron: Tried to mail output of job `cron.daily', but mailer process (/usr/sbin/sendmail) exited with ststus 75
+Oct 14 16:49:44 praggy-VirtualBox anacron[662]: Normal exit (1 job run)
+Oct 14 17:04:43 praggy-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="688" x-info="http://www.rsyslog.com"] start
+Oct 14 17:04:42 praggy-VirtualBox rsyslogd-2222: command 'KLogPermitNonKernelFacility' is currently not permitted - did you already set it via a RainerScript command (v6+ config)? [v8.16.0 try http://www.rsyslog.com/e/2222 ]
+Oct 14 17:04:43 praggy-VirtualBox rsyslogd: rsyslogd's groupid changed to 108
+Oct 14 17:04:43 praggy-VirtualBox rsyslogd: rsyslogd's userid changed to 104
+Oct 14 17:04:43 praggy-VirtualBox rsyslogd-2039: Could not open output pipe '/dev/xconsole':: No such file or directory [v8.16.0 try http://www.rsyslog.com/e/2039 ]
+Oct 14 17:04:43 praggy-VirtualBox rsyslogd-2007: action 'action 10' suspended, next retry is Sat Oct 14 17:05:13 2017 [v8.16.0 try http://www.rsyslog.com/e/2007 ]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Linux version 4.10.0-37-generic (buildd@lgw01-amd64-037) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #41~16.04.1-Ubuntu SMP Fri Oct 6 22:42:59 UTC 2017 (Ubuntu 4.10.0-37.41~16.04.1-generic 4.10.17)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-37-generic root=UUID=a36c0d67-c5a2-4184-833a-57f12ab5cb7f ro quiet splash
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   AMD AuthenticAMD
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   Centaur CentaurHauls
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] SMBIOS 2.5 present.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Hypervisor detected: KVM
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] e820: last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] MTRR default type: uncachable
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] MTRR variable ranges disabled:
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] MTRR: Disabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff8c1c8009fff0]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Base memory trampoline at [ffff8c1c80099000] 99000 size 24576
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BRK [0x23828000, 0x23828fff] PGTABLE
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BRK [0x23829000, 0x23829fff] PGTABLE
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BRK [0x2382a000, 0x2382afff] PGTABLE
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BRK [0x2382b000, 0x2382bfff] PGTABLE
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BRK [0x2382c000, 0x2382cfff] PGTABLE
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] BRK [0x2382d000, 0x2382dfff] PGTABLE
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] RAMDISK: [mem 0x33028000-0x3580bfff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x000000007FFF0470 0021C8 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000007FFF0200 000040
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: FACS 0x000000007FFF0200 000040
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: APIC 0x000000007FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x000000007FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] No NUMA configuration found
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x7ffc5000-0x7ffeffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] kvm-clock: cpu 0, msr 0:7ff45001, primary cpu clock
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] kvm-clock: using sched offset of 13119353002 cycles
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Zone ranges:
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000007ffeffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   Normal   empty
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   Device   empty
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Movable zone start for each node
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Early memory node ranges
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] On node 0 totalpages: 524174
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   DMA zone: 21 pages reserved
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   DMA32 zone: 8128 pages used for memmap
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000]   DMA32 zone: 520176 pages, LIFO batch:31
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] e820: [mem 0x80000000-0xfebfffff] available for PCI devices
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] percpu: Embedded 36 pages/cpu @ffff8c1cffc00000 s107992 r8192 d31272 u2097152
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] pcpu-alloc: s107992 r8192 d31272 u2097152 alloc=1*2097152
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] pcpu-alloc: [0] 0 
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 515961
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Policy zone: DMA32
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-37-generic root=UUID=a36c0d67-c5a2-4184-833a-57f12ab5cb7f ro quiet splash
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Memory: 2001416K/2096696K available (9070K kernel code, 1667K rwdata, 3828K rodata, 2228K init, 2364K bss, 95280K reserved, 0K cma-reserved)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Hierarchical RCU implementation.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] NR_IRQS:524544 nr_irqs:256 16
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] Console: colour VGA+ 80x25
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] console [tty0] enabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.000000] tsc: Detected 2195.024 MHz processor
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.049267] Calibrating delay loop (skipped) preset value.. 4390.04 BogoMIPS (lpj=8780096)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.049270] pid_max: default: 32768 minimum: 301
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.049281] ACPI: Core revision 20160930
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.050192] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.050217] Security Framework initialized
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.050218] Yama: becoming mindful.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.050230] AppArmor: AppArmor initialized
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.051595] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.052018] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.052223] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.052225] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.052456] CPU: Physical Processor ID: 0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.052473] mce: CPU supports 0 MCE banks
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.052495] process: using mwait in idle threads
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.052500] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.052501] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.066655] Freeing SMP alternatives memory: 32K
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.067750] ftrace: allocating 34228 entries in 134 pages
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.082811] smpboot: Max logical packages: 1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.083157] x2apic enabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.083390] Switched APIC routing to physical x2apic.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.084569] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.189706] smpboot: CPU0: Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz (family: 0x6, model: 0x3a, stepping: 0x9)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.189791] Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.189822] KVM setup paravirtual spinlock
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.190471] smp: Bringing up secondary CPUs ...
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.190472] smp: Brought up 1 node, 1 CPU
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.190474] smpboot: Total of 1 processors activated (4390.04 BogoMIPS)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.190808] devtmpfs: initialized
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.190861] x86/mm: Memory block size: 128MB
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192580] evm: security.selinux
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192580] evm: security.SMACK64
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192581] evm: security.SMACK64EXEC
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192581] evm: security.SMACK64TRANSMUTE
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192581] evm: security.SMACK64MMAP
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192582] evm: security.ima
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192582] evm: security.capability
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192675] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192680] futex hash table entries: 256 (order: 2, 16384 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192703] pinctrl core: initialized pinctrl subsystem
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192805] RTC time: 22:04:21, date: 10/14/17
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.192896] NET: Registered protocol family 16
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.193064] cpuidle: using governor ladder
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.193065] cpuidle: using governor menu
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.193067] PCCT header not found.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.193090] ACPI: bus type PCI registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.193091] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.193196] PCI: Using configuration type 1 for base access
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.194273] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.194450] ACPI: Added _OSI(Module Device)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.194450] ACPI: Added _OSI(Processor Device)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.194451] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.194452] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.194787] ACPI: Executed 1 blocks of module-level executable AML code
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.196898] ACPI: Interpreter enabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.196907] ACPI: (supports S0 S5)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.196907] ACPI: Using IOAPIC for interrupt routing
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.197052] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.200907] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.200911] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.200915] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.200921] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.201281] PCI host bridge to bus 0000:00
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.201284] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.201285] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.201286] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.201287] pci_bus 0000:00: root bus resource [mem 0x80000000-0xffdfffff window]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.201288] pci_bus 0000:00: root bus resource [bus 00-ff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.201336] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.201979] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.202766] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.203234] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.203413] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.203414] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.203415] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.203416] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.203656] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.205061] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe0ffffff pref]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.213354] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.214272] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.215954] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.219922] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.220827] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.221746] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.222574] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.226184] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.226296] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.226372] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.227049] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.227964] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.233740] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.234327] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.234340] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.234695] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.235602] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.237300] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.238989] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.239807] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.242308] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.242515] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.242607] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.242725] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244069] ACPI: Enabled 2 GPEs in block 00 to 07
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244385] SCSI subsystem initialized
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244461] libata version 3.00 loaded.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244524] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244528] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244531] pci 0000:00:02.0: vgaarb: bridge control possible
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244532] vgaarb: loaded
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244562] ACPI: bus type USB registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244583] usbcore: registered new interface driver usbfs
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244595] usbcore: registered new interface driver hub
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244605] usbcore: registered new device driver usb
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244736] PCI: Using ACPI for IRQ routing
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244737] PCI: pci_cache_line_size set to 64 bytes
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244960] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.244964] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.245073] NetLabel: Initializing
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.245074] NetLabel:  domain hash size = 128
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.245075] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.245094] NetLabel:  unlabeled traffic allowed by default
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.245221] clocksource: Switched to clocksource kvm-clock
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.255576] VFS: Disk quotas dquot_6.6.0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.255591] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.255713] AppArmor: AppArmor Filesystem Enabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.255785] pnp: PnP ACPI init
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.255849] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.255919] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.256586] pnp: PnP ACPI: found 2 devices
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262410] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262420] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262421] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262423] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262424] pci_bus 0000:00: resource 7 [mem 0x80000000-0xffdfffff window]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262463] NET: Registered protocol family 2
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262620] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262649] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262693] TCP: Hash tables configured (established 16384 bind 16384)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262715] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262722] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262752] NET: Registered protocol family 1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262761] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262793] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.262853] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.264163] PCI: CLS 0 bytes, default 64
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.264213] Unpacking initramfs...
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.874854] Freeing initrd memory: 40848K
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.875014] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.875048] Scanning for low memory corruption every 60 seconds
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.875387] audit: initializing netlink subsys (disabled)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.875686] Initialise system trusted keyrings
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.875712] audit: type=2000 audit(1508018676.706:1): initialized
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.875763] workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.877312] zbud: loaded
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.877709] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.877900] fuse init (API version 7.26)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.878638] Key type asymmetric registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.878639] Asymmetric key parser 'x509' registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.878669] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.878691] io scheduler noop registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.878692] io scheduler deadline registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.878705] io scheduler cfq registered (default)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.878988] ACPI: AC Adapter [AC] (on-line)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.879066] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.879069] ACPI: Power Button [PWRF]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.879141] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.879142] ACPI: Sleep Button [SLPF]
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.879269] GHES: HEST is not enabled!
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.879998] ACPI: Battery Slot [BAT0] (battery present)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.880032] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.882468] Linux agpgart interface v0.103
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.883617] loop: module loaded
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.883710] ata_piix 0000:00:01.1: version 2.13
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884161] scsi host0: ata_piix
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884231] scsi host1: ata_piix
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884279] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884280] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884340] libphy: Fixed MDIO Bus: probed
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884341] tun: Universal TUN/TAP device driver, 1.6
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884342] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884663] PPP generic driver version 2.4.2
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884702] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884705] ehci-pci: EHCI PCI platform driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884715] ehci-platform: EHCI generic platform driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884721] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.884722] ohci-pci: OHCI PCI platform driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.885307] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.885312] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.885385] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946095] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946097] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946098] usb usb1: Product: OHCI PCI host controller
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946099] usb usb1: Manufacturer: Linux 4.10.0-37-generic ohci_hcd
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946100] usb usb1: SerialNumber: 0000:00:06.0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946236] hub 1-0:1.0: USB hub found
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946252] hub 1-0:1.0: 12 ports detected
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946641] ohci-platform: OHCI generic platform driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946654] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.946717] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.947184] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.947189] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.947298] mousedev: PS/2 mouse device common for all mice
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.947587] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.947949] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.948004] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.948009] i2c /dev entries driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.948060] device-mapper: uevent: version 1.0.3
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.948114] device-mapper: ioctl: 4.35.0-ioctl (2016-06-23) initialised: dm-devel@redhat.com
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.948123] ledtrig-cpu: registered to indicate activity on CPUs
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.948355] NET: Registered protocol family 10
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.952195] Segment Routing with IPv6
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.952209] NET: Registered protocol family 17
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.952217] Key type dns_resolver registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.952418] registered taskstats version 1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.952427] Loading compiled-in X.509 certificates
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.954862] Loaded X.509 cert 'Build time autogenerated kernel key: ebb0dc598d000e9bec363d7c6e3d1e7183d2dba1'
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.954878] zswap: loaded using pool lzo/zbud
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.964277] Key type big_key registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.964281] Key type trusted registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966055] Key type encrypted registered
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966057] AppArmor: AppArmor sha1 policy hashing enabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966060] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966081] evm: HMAC attrs: 0x1
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966398]   Magic number: 5:923:97
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966478] rtc_cmos rtc_cmos: setting system clock to 2017-10-14 22:04:22 UTC (1508018662)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966550] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966551] EDD information not available.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    0.966574] PM: Hibernation image not present or could not be loaded.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.045672] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.046034] ata2.00: configured for UDMA/33
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.046586] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.047221] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.047223] cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.047357] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.047560] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.049200] Freeing unused kernel memory: 2228K
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.049201] Write protecting the kernel read-only data: 14336k
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.049686] Freeing unused kernel memory: 1156K
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.050166] Freeing unused kernel memory: 268K
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.056652] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.066092] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.066127] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.066766] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.066816] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.066830] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.067052] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.067101] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.067154] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.067201] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox systemd-modules-load[227]: Inserted module 'lp'
+Oct 14 17:04:43 praggy-VirtualBox systemd-modules-load[227]: Inserted module 'ppdev'
+Oct 14 17:04:43 praggy-VirtualBox systemd-modules-load[227]: Inserted module 'parport_pc'
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Load Kernel Modules.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Apply Kernel Variables...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Mounting FUSE Control File System...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Mounted FUSE Control File System.
+Oct 14 17:04:43 praggy-VirtualBox loadkeys[231]: Loading /etc/console-setup/cached.kmap.gz
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Set console keymap.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Apply Kernel Variables.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Create Static Device Nodes in /dev.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting udev Kernel Device Manager...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started udev Kernel Device Manager.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Remount Root and Kernel File Systems...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Remount Root and Kernel File Systems.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Load/Save Random Seed...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target Local File Systems (Pre).
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target Local File Systems.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting LSB: AppArmor initialization...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Clean up any mess left by 0dns-up...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Set console font and keymap...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting udev Coldplug all Devices...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Load/Save Random Seed.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started udev Coldplug all Devices.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Show Plymouth Boot Screen...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Flush Journal to Persistent Storage.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Create Volatile Files and Directories...
+Oct 14 17:04:43 praggy-VirtualBox systemd-tmpfiles[288]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Create Volatile Files and Directories.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target System Time Synchronized.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Show Plymouth Boot Screen.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Clean up any mess left by 0dns-up.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Nameserver information manager...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Nameserver information manager.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target Network (Pre).
+Oct 14 17:04:43 praggy-VirtualBox mtp-probe: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1"
+Oct 14 17:04:43 praggy-VirtualBox mtp-probe: bus: 1, device: 2 was not an MTP device
+Oct 14 17:04:43 praggy-VirtualBox apparmor[269]:  * Starting AppArmor profiles
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Set console font and keymap.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Created slice system-getty.slice.
+Oct 14 17:04:43 praggy-VirtualBox apparmor[269]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target Sound Card.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Found device VBOX_HARDDISK 5.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Activating swap /dev/disk/by-uuid/4ca18499-813a-4d43-9582-581c7f5bd2ec...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Activated swap /dev/disk/by-uuid/4ca18499-813a-4d43-9582-581c7f5bd2ec.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target Swap.
+Oct 14 17:04:43 praggy-VirtualBox apparmor[269]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 14 17:04:43 praggy-VirtualBox apparmor[269]:    ...done.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started LSB: AppArmor initialization.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Raise network interfaces...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target System Initialization.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Timer to automatically refresh installed snaps.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Listening on ACPID Listen Socket.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Socket activation for snappy daemon.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started ACPI Events Check.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target Paths.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Listening on UUID daemon activation socket.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Listening on CUPS Scheduler.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Listening on Socket activation for snappy daemon.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target Sockets.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Reached target Basic System.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting vboxadd-x11.service...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Run anacron jobs.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting vboxadd.service...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started CUPS Scheduler.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting LSB: Record successful boot for GRUB...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Snappy daemon.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started D-Bus System Message Bus.
+Oct 14 17:04:43 praggy-VirtualBox gpu-manager[628]: /etc/modprobe.d is not a file
+Oct 14 17:04:43 praggy-VirtualBox gpu-manager[628]: message repeated 4 times: [ /etc/modprobe.d is not a file]
+Oct 14 17:04:43 praggy-VirtualBox gpu-manager[628]: Error: can't open /lib/modules/4.10.0-37-generic/updates/dkms
+Oct 14 17:04:43 praggy-VirtualBox gpu-manager[628]: Error: can't open /lib/modules/4.10.0-37-generic/updates/dkms
+Oct 14 17:04:43 praggy-VirtualBox anacron[629]: Anacron 2.3 started on 2017-10-14
+Oct 14 17:04:43 praggy-VirtualBox anacron[629]: Normal exit (0 jobs run)
+Oct 14 17:04:43 praggy-VirtualBox dbus[636]: [system] AppArmor D-Bus mediation is enabled
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Login Service...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Permit User Sessions...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Accounts Service...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting System Logging Service...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+Oct 14 17:04:43 praggy-VirtualBox vboxadd[631]: vboxadd.sh: Starting the VirtualBox Guest Additions.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Regular background program processing daemon.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Thermal Daemon Service...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Auto import assertions from block devices...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Network Manager...
+Oct 14 17:04:43 praggy-VirtualBox snap[704]: auto-import is disabled on classic
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started ACPI event daemon.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Modem Manager...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting LSB: Speech Dispatcher...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting LSB: automatic crash report generation...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Save/Restore Sound Card State...
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Permit User Sessions.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Auto import assertions from block devices.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Save/Restore Sound Card State.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Login Service.
+Oct 14 17:04:43 praggy-VirtualBox vboxadd.sh: Starting the VirtualBox Guest Additions.
+Oct 14 17:04:43 praggy-VirtualBox cron[701]: (CRON) INFO (pidfile fd = 3)
+Oct 14 17:04:43 praggy-VirtualBox gpu-manager[628]: update-alternatives: error: no alternatives for x86_64-linux-gnu_gfxcore_conf
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Detect the available GPUs and deal with any system changes.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Starting Light Display Manager...
+Oct 14 17:04:43 praggy-VirtualBox acpid: starting up with netlink and the input layer
+Oct 14 17:04:43 praggy-VirtualBox avahi-daemon[717]: Found user 'avahi' (UID 111) and group 'avahi' (GID 120).
+Oct 14 17:04:43 praggy-VirtualBox avahi-daemon[717]: Successfully dropped root privileges.
+Oct 14 17:04:43 praggy-VirtualBox avahi-daemon[717]: avahi-daemon 0.6.32-rc starting up.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Make remote CUPS printers available locally.
+Oct 14 17:04:43 praggy-VirtualBox avahi-daemon[717]: Successfully called chroot().
+Oct 14 17:04:43 praggy-VirtualBox avahi-daemon[717]: Successfully dropped remaining capabilities.
+Oct 14 17:04:43 praggy-VirtualBox avahi-daemon[717]: No service file found in /etc/avahi/services.
+Oct 14 17:04:43 praggy-VirtualBox avahi-daemon[717]: Network interface enumeration completed.
+Oct 14 17:04:43 praggy-VirtualBox avahi-daemon[717]: Server startup complete. Host name is praggy-VirtualBox.local. Local service cookie is 682456233.
+Oct 14 17:04:43 praggy-VirtualBox cron[701]: (CRON) INFO (Running @reboot jobs)
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Thermal Daemon Service.
+Oct 14 17:04:43 praggy-VirtualBox thermald[702]: NO RAPL sysfs present
+Oct 14 17:04:43 praggy-VirtualBox thermald[702]: 13 CPUID levels; family:model:stepping 0x6:3a:9 (6:58:9)
+Oct 14 17:04:43 praggy-VirtualBox thermald[702]: Polling mode is enabled: 4
+Oct 14 17:04:43 praggy-VirtualBox thermald[702]: Thermal DTS: No coretemp sysfs found
+Oct 14 17:04:43 praggy-VirtualBox thermald[702]: Thermal DTS or hwmon: No Zones present Need to configure manually
+Oct 14 17:04:43 praggy-VirtualBox thermald[702]: No thermal sensors found
+Oct 14 17:04:43 praggy-VirtualBox thermald[702]: THD engine start failed
+Oct 14 17:04:43 praggy-VirtualBox acpid: 9 rules loaded
+Oct 14 17:04:43 praggy-VirtualBox acpid: waiting for events: event logging is off
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started vboxadd-x11.service.
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started System Logging Service.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.067246] random: udevadm: uninitialized urandom read (16 bytes read)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.103561] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.103668] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.107032] FUJITSU Extended Socket Network Device Driver - version 1.2 - Copyright (c) 2015 FUJITSU LIMITED
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.114626] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.114627] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.343211] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.399429] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.536248] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:0d:55:55
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.536255] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.536288] ahci 0000:00:0d.0: version 3.0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.536943] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.537086] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.537087] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.538554] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.540319] scsi host2: ahci
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.540396] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.708883] random: fast init done
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.712401] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.712402] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.712403] usb 1-1: Product: USB Tablet
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.712404] usb 1-1: Manufacturer: VirtualBox
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.720977] hidraw: raw HID events driver (C) Jiri Kosina
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.738104] usbcore: registered new interface driver usbhid
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.738105] usbhid: USB HID core driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.745634] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.745848] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.858253] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.858406] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.858408] ata3.00: 62914560 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.858516] ata3.00: configured for UDMA/133
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.858668] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.859043] sd 2:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.859053] sd 2:0:0:0: [sda] Write Protect is off
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.859054] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.859067] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.859504] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.889489] tsc: Refined TSC clocksource calibration: 2194.235 MHz
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.889493] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1fa0ed09b9b, max_idle_ns: 440795287326 ns
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.890264]  sda: sda1 sda2 < sda5 >
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    1.890840] sd 2:0:0:0: [sda] Attached SCSI disk
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    4.225294] floppy0: no floppy controllers found
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    4.225354] work still pending
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    4.345469] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    6.600264] random: crng init done
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    7.508448] lp: driver loaded but no devices found
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    7.560353] ppdev: user-space parallel port driver
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    8.247336] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.290049] [drm] Initialized
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.300733] vboxguest: loading out-of-tree module taints kernel.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.300827] vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.303887] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.303979] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.304102] vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.304104] vboxguest: Successfully loaded version 5.1.18 (interface 0x00010004)
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.494750] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.536089] [drm] VRAM 01000000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.539886] [TTM] Zone  kernel: Available graphics memory: 1022974 kiB
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.539887] [TTM] Initializing pool allocator
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.539891] [TTM] Initializing DMA pool allocator
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.540336] fbcon: vboxdrmfb (fb0) is primary device
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.556276] Console: switching to colour frame buffer device 100x37
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.557335] vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.557352] [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.644253] RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 10737418240 ms ovfl timer
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.644255] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.644255] RAPL PMU: hw unit of domain package 2^-0 Joules
+Oct 14 17:04:43 praggy-VirtualBox kernel: [    9.644256] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   10.006147] AVX version of gcm_enc/dec engaged.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   10.006148] AES CTR mode by8 optimization enabled
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   11.448515] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.009080] audit: type=1400 audit(1508018673.536:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=493 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.009082] audit: type=1400 audit(1508018673.536:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session//chromium" pid=493 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.276443] audit: type=1400 audit(1508018673.804:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=512 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.276445] audit: type=1400 audit(1508018673.804:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=512 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.276446] audit: type=1400 audit(1508018673.804:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=512 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.276447] audit: type=1400 audit(1508018673.804:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=512 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.356636] audit: type=1400 audit(1508018673.884:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=536 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.356638] audit: type=1400 audit(1508018673.884:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=536 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.356639] audit: type=1400 audit(1508018673.884:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=536 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.356640] audit: type=1400 audit(1508018673.884:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=536 comm="apparmor_parser"
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   12.673697] floppy0: no floppy controllers found
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   13.808225] Adding 2095100k swap on /dev/sda5.  Priority:-1 extents:1 across:2095100k FS
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Received SIGRTMIN+20 from PID 296 (plymouthd).
+Oct 14 17:04:43 praggy-VirtualBox apport[719]:  * Starting automatic crash report generation: apport
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started Raise network interfaces.
+Oct 14 17:04:43 praggy-VirtualBox speech-dispatcher[718]:  * speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+Oct 14 17:04:43 praggy-VirtualBox systemd[1]: Started LSB: Speech Dispatcher.
+Oct 14 17:04:43 praggy-VirtualBox kernel: [   22.309334] vboxsf: Successfully loaded version 5.1.18 (interface 0x00010004)
+Oct 14 17:04:44 praggy-VirtualBox vboxadd-x11.sh: Installing the Window System drivers.
+Oct 14 17:04:44 praggy-VirtualBox vboxadd-x11.sh: Installing X.Org Server 1.18 modules.
+Oct 14 17:04:44 praggy-VirtualBox irqbalance[703]:  * Starting SMP IRQ Balancer: irqbalance
+Oct 14 17:04:44 praggy-VirtualBox apport[719]:    ...done.
+Oct 14 17:04:44 praggy-VirtualBox systemd[1]: Started LSB: automatic crash report generation.
+Oct 14 17:04:44 praggy-VirtualBox systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+Oct 14 17:04:44 praggy-VirtualBox /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Oct 14 17:04:44 praggy-VirtualBox irqbalance[703]:    ...done.
+Oct 14 17:04:44 praggy-VirtualBox systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+Oct 14 17:04:44 praggy-VirtualBox vboxadd-x11.sh: X.Org Server 1.18 modules installed.
+Oct 14 17:04:44 praggy-VirtualBox vboxadd-x11.sh: Setting up the Window System to use the Guest Additions.
+Oct 14 17:04:44 praggy-VirtualBox vboxadd-x11.sh: Window System set up to use the Guest Additions.
+Oct 14 17:04:44 praggy-VirtualBox vboxadd[631]: You may need to restart the Window System (or just restart the guest system)
+Oct 14 17:04:44 praggy-VirtualBox vboxadd[631]: to enable the Guest Additions.
+Oct 14 17:04:44 praggy-VirtualBox vboxadd-x11.sh: Installing graphics libraries and desktop services components.
+Oct 14 17:04:44 praggy-VirtualBox ModemManager[716]: <info>  ModemManager (version 1.4.12) starting in system bus...
+Oct 14 17:04:44 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'
+Oct 14 17:04:44 praggy-VirtualBox NetworkManager[705]: <info>  [1508018684.9925] NetworkManager (version 1.2.6) is starting...
+Oct 14 17:04:45 praggy-VirtualBox NetworkManager[705]: <info>  [1508018685.0023] Read config: /etc/NetworkManager/NetworkManager.conf (etc: default-wifi-powersave-on.conf)
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Received SIGRTMIN+21 from PID 296 (plymouthd).
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Started Light Display Manager.
+Oct 14 17:04:45 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.Accounts' unit='accounts-daemon.service'
+Oct 14 17:04:45 praggy-VirtualBox NetworkManager[705]: <info>  [1508018685.0844] manager[0x1fec200]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 14 17:04:45 praggy-VirtualBox NetworkManager[705]: <info>  [1508018685.0851] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 14 17:04:45 praggy-VirtualBox vboxadd-x11.sh: Window system drivers installed.
+Oct 14 17:04:45 praggy-VirtualBox NetworkManager[705]: <info>  [1508018685.3130] dns-mgr[0x1fe5140]: init: dns=dnsmasq, rc-manager=resolvconf, plugin=dnsmasq
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Started Network Manager.
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Reached target Network.
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Started Unattended Upgrades Shutdown.
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Starting MySQL Community Server...
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Starting Network Manager Wait Online...
+Oct 14 17:04:45 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 14 17:04:45 praggy-VirtualBox polkitd[901]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Oct 14 17:04:45 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+Oct 14 17:04:45 praggy-VirtualBox accounts-daemon[687]: started daemon version 0.6.40
+Oct 14 17:04:45 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.Accounts'
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Started Accounts Service.
+Oct 14 17:04:45 praggy-VirtualBox systemd[1]: Started LSB: Record successful boot for GRUB.
+Oct 14 17:04:46 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 14 17:04:46 praggy-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0710] init!
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0723] management mode: unmanaged
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0730] devices added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0731] device added (path: /sys/devices/pci0000:00/0000:00:03.0/net/enp0s3, iface: enp0s3): no ifupdown configuration found.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0731] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0731] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0732] end _init.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0732] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0733] settings: loaded plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0794] SettingsPlugin-Ofono: init!
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <warn>  [1508018686.0795] SettingsPlugin-Ofono: file doesn't exist: /var/lib/ofono
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0795] SettingsPlugin-Ofono: end _init.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0795] settings: loaded plugin ofono: (C) 2013-2016 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ofono.so)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0796] (33555744) ... get_connections.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.0796] (33555744) ... get_connections (managed=false): return empty list.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.1467] SettingsPlugin-Ofono: (33555904) ... get_connections.
+Oct 14 17:04:46 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.1468] SettingsPlugin-Ofono: (33555904) connections count: 0
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.1469] get unmanaged devices count: 0
+Oct 14 17:04:46 praggy-VirtualBox /usr/lib/snapd/snapd[635]: daemon.go:250: DEBUG: init done in 1.617548ms
+Oct 14 17:04:46 praggy-VirtualBox /usr/lib/snapd/snapd[635]: daemon.go:251: started snapd/2.26.10 (series 16; classic) ubuntu/16.04 (amd64) linux/4.10.0-37-generic.
+Oct 14 17:04:46 praggy-VirtualBox snapd[635]: 2017/10/14 17:04:46.320285 daemon.go:251: started snapd/2.26.10 (series 16; classic) ubuntu/16.04 (amd64) linux/4.10.0-37-generic.
+Oct 14 17:04:46 praggy-VirtualBox systemd[1]: Starting Hostname Service...
+Oct 14 17:04:46 praggy-VirtualBox systemd[1]: Started Modem Manager.
+Oct 14 17:04:46 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct 14 17:04:46 praggy-VirtualBox systemd[1]: Started Hostname Service.
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8692] settings: hostname: using hostnamed
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8692] settings: hostname changed from (none) to "praggy-VirtualBox"
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8694] Using DHCP client 'dhclient'
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8694] manager: WiFi enabled by radio killswitch; enabled by state file
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8695] manager: WWAN enabled by radio killswitch; enabled by state file
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8695] manager: Networking is enabled by state file
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8696] Loaded device plugin: NMVxlanFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8696] Loaded device plugin: NMVlanFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8696] Loaded device plugin: NMVethFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox nm-dispatcher: req:1 'hostname': new request (1 scripts)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8696] Loaded device plugin: NMTunFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8696] Loaded device plugin: NMMacvlanFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8697] Loaded device plugin: NMIPTunnelFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8697] Loaded device plugin: NMInfinibandFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8697] Loaded device plugin: NMEthernetFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8697] Loaded device plugin: NMBridgeFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox NetworkManager[705]: <info>  [1508018686.8697] Loaded device plugin: NMBondFactory (internal)
+Oct 14 17:04:46 praggy-VirtualBox /usr/lib/snapd/snapd[635]: snapmgr.go:504: DEBUG: Next refresh scheduled for 2017-10-14 17:04:46.913291067 -0500 CDT.
+Oct 14 17:04:46 praggy-VirtualBox /usr/lib/snapd/snapd[635]: snapmgr.go:411: Cannot prepare auto-refresh change: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com on [::1]:53: read udp [::1]:56679->[::1]:53: read: connection refused
+Oct 14 17:04:46 praggy-VirtualBox snapd[635]: 2017/10/14 17:04:46.979808 snapmgr.go:411: Cannot prepare auto-refresh change: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com on [::1]:53: read udp [::1]:56679->[::1]:53: read: connection refused
+Oct 14 17:04:46 praggy-VirtualBox /usr/lib/snapd/snapd[635]: stateengine.go:98: state ensure error: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com on [::1]:53: read udp [::1]:56679->[::1]:53: read: connection refused
+Oct 14 17:04:46 praggy-VirtualBox snapd[635]: 2017/10/14 17:04:46.980925 stateengine.go:98: state ensure error: Post https://search.apps.ubuntu.com/api/v1/snaps/metadata: dial tcp: lookup search.apps.ubuntu.com on [::1]:53: read udp [::1]:56679->[::1]:53: read: connection refused
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.2350] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.4024] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.5516] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.6266] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.6478] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/0)
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.6518] keyfile: add connection in-memory (5c9d01d2-7d35-3146-9611-569bec94ff6f,"Wired connection 1")
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.6801] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.6836] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Oct 14 17:04:47 praggy-VirtualBox kernel: [   26.151175] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Oct 14 17:04:47 praggy-VirtualBox kernel: [   26.155559] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: nm_device_get_device_type: assertion 'NM_IS_DEVICE (self)' failed
+Oct 14 17:04:47 praggy-VirtualBox kernel: [   26.157855] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 14 17:04:47 praggy-VirtualBox kernel: [   26.158455] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.6946] device (lo): link connected
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.6984] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8433] urfkill disappeared from the bus
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8553] device (enp0s3): link connected
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8695] ModemManager available in the bus
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8704] ofono is now available
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <warn>  [1508018687.8731] failed to enumerate oFono devices: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8798] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8829] policy: auto-activating connection 'Wired connection 1'
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8870] device (enp0s3): Activation: starting connection 'Wired connection 1' (5c9d01d2-7d35-3146-9611-569bec94ff6f)
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8879] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8889] manager: NetworkManager state is now CONNECTING
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8948] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.8975] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Oct 14 17:04:47 praggy-VirtualBox NetworkManager[705]: <info>  [1508018687.9314] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Oct 14 17:04:48 praggy-VirtualBox kernel: [   26.534406] kauditd_printk_skb: 13 callbacks suppressed
+Oct 14 17:04:48 praggy-VirtualBox kernel: [   26.534409] audit: type=1400 audit(1508018688.064:25): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/937/status" pid=937 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=121
+Oct 14 17:04:48 praggy-VirtualBox kernel: [   26.534412] audit: type=1400 audit(1508018688.064:26): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=937 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=0
+Oct 14 17:04:48 praggy-VirtualBox kernel: [   26.534414] audit: type=1400 audit(1508018688.064:27): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/937/status" pid=937 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=121 ouid=121
+Oct 14 17:04:48 praggy-VirtualBox ModemManager[716]: <info>  Couldn't find support for device at '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Oct 14 17:04:48 praggy-VirtualBox vboxadd.sh: .
+Oct 14 17:04:48 praggy-VirtualBox systemd[1]: Started vboxadd.service.
+Oct 14 17:04:48 praggy-VirtualBox systemd[1]: Starting vboxadd-service.service...
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.0396] dhcp4 (enp0s3): dhclient started with pid 950
+Oct 14 17:04:49 praggy-VirtualBox vboxadd-service[955]: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Oct 14 17:04:49 praggy-VirtualBox vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.725382] VBoxService 5.1.18 r114002 (verbosity: 0) linux.amd64 (Mar 15 2017 16:30:21) release log
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.725382] 00:00:00.000161 main     Log opened 2017-10-14T22:04:49.258759000Z
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.725914] 00:00:00.000746 main     OS Product: Linux
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.725992] 00:00:00.000845 main     OS Release: 4.10.0-37-generic
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.726065] 00:00:00.000921 main     OS Version: #41~16.04.1-Ubuntu SMP Fri Oct 6 22:42:59 UTC 2017
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.726159] 00:00:00.000993 main     Executable: /opt/VBoxGuestAdditions-5.1.18/sbin/VBoxService
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.726159] 00:00:00.000995 main     Process ID: 962
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.726159] 00:00:00.000997 main     Package type: LINUX_64BITS_GENERIC
+Oct 14 17:04:49 praggy-VirtualBox kernel: [   27.728157] 00:00:00.003000 main     5.1.18 r114002 started. Verbose level = 0
+Oct 14 17:04:49 praggy-VirtualBox vboxadd-service.sh: VirtualBox Guest Addition service started.
+Oct 14 17:04:49 praggy-VirtualBox systemd[1]: Started vboxadd-service.service.
+Oct 14 17:04:49 praggy-VirtualBox dhclient[950]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x40679da3)
+Oct 14 17:04:49 praggy-VirtualBox dhclient[950]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.8954]   address 10.0.2.15
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.8958]   plen 24 (255.255.255.0)
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.8960]   gateway 10.0.2.2
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.8962]   server identifier 10.0.2.2
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.8964]   lease time 86400
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.8967]   nameserver '192.168.1.1'
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.8972]   domain name 'domain.actdsltmp'
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.8974] dhcp4 (enp0s3): state changed unknown -> bound
+Oct 14 17:04:49 praggy-VirtualBox avahi-daemon[717]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Oct 14 17:04:49 praggy-VirtualBox avahi-daemon[717]: New relevant interface enp0s3.IPv4 for mDNS.
+Oct 14 17:04:49 praggy-VirtualBox avahi-daemon[717]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.9001] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.9062] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.9093] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.9103] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.9343] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.9353] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Oct 14 17:04:49 praggy-VirtualBox NetworkManager[705]: <info>  [1508018689.9363] dns-plugin[0x1fff0d0]: starting dnsmasq...
+Oct 14 17:04:49 praggy-VirtualBox dhclient[950]: bound to 10.0.2.15 -- renewal in 34999 seconds.
+Oct 14 17:04:50 praggy-VirtualBox avahi-daemon[717]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::2204:e783:64d0:db46.
+Oct 14 17:04:50 praggy-VirtualBox avahi-daemon[717]: New relevant interface enp0s3.IPv6 for mDNS.
+Oct 14 17:04:50 praggy-VirtualBox avahi-daemon[717]: Registering new address record for fe80::2204:e783:64d0:db46 on enp0s3.*.
+Oct 14 17:04:51 praggy-VirtualBox NetworkManager[705]: <info>  [1508018691.3082] dns-mgr: Writing DNS information to /sbin/resolvconf
+Oct 14 17:04:51 praggy-VirtualBox dnsmasq[985]: started, version 2.75 cache disabled
+Oct 14 17:04:51 praggy-VirtualBox dnsmasq[985]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+Oct 14 17:04:51 praggy-VirtualBox dnsmasq[985]: DBus support enabled: connected to system bus
+Oct 14 17:04:51 praggy-VirtualBox dnsmasq[985]: warning: no upstream servers configured
+Oct 14 17:04:54 praggy-VirtualBox NetworkManager[705]: <info>  [1508018694.6285] device (enp0s3): Activation: successful, device activated.
+Oct 14 17:04:54 praggy-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: new request (1 scripts)
+Oct 14 17:04:54 praggy-VirtualBox nm-dispatcher: req:2 'up' [enp0s3]: start running ordered scripts...
+Oct 14 17:04:54 praggy-VirtualBox NetworkManager[705]: <info>  [1508018694.6383] manager: startup complete
+Oct 14 17:04:54 praggy-VirtualBox NetworkManager[705]: <info>  [1508018694.6494] dnsmasq[0x1fff0d0]: dnsmasq appeared as :1.19
+Oct 14 17:04:54 praggy-VirtualBox dnsmasq[985]: setting upstream servers from DBus
+Oct 14 17:04:54 praggy-VirtualBox dnsmasq[985]: using nameserver 192.168.1.1#53(via enp0s3)
+Oct 14 17:04:54 praggy-VirtualBox systemd[1]: Started Network Manager Wait Online.
+Oct 14 17:04:54 praggy-VirtualBox systemd[1]: Reached target Network is Online.
+Oct 14 17:04:54 praggy-VirtualBox systemd[1]: Started Daily apt download activities.
+Oct 14 17:04:54 praggy-VirtualBox systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 14 17:04:54 praggy-VirtualBox systemd[1]: Reached target Timers.
+Oct 14 17:04:54 praggy-VirtualBox systemd[1]: Started crash report submission daemon.
+Oct 14 17:04:54 praggy-VirtualBox systemd[1]: Starting /etc/rc.local Compatibility...
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Started /etc/rc.local Compatibility.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Starting Hold until boot process finishes up...
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Started Hold until boot process finishes up.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Starting Set console scheme...
+Oct 14 17:04:55 praggy-VirtualBox whoopsie[1075]: [17:04:55] Using lock path: /var/lock/whoopsie/lock
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Started Getty on tty1.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Reached target Login Prompts.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Started Set console scheme.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Started MySQL Community Server.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Starting LSB: Postfix Mail Transport Agent...
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Started LSB: Postfix Mail Transport Agent.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Reached target Multi-User System.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Reached target Mail Transport Agent.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Reached target Graphical Interface.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct 14 17:04:55 praggy-VirtualBox systemd[1]: Startup finished in 4.828s (kernel) + 29.048s (userspace) = 33.876s.
+Oct 14 17:04:55 praggy-VirtualBox whoopsie[1075]: [17:04:55] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+Oct 14 17:04:55 praggy-VirtualBox whoopsie[1075]: [17:04:55] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+Oct 14 17:04:55 praggy-VirtualBox whoopsie[1075]: [17:04:55] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+Oct 14 17:04:55 praggy-VirtualBox NetworkManager[705]: <info>  [1508018695.6957] manager: WiFi hardware radio set enabled
+Oct 14 17:04:55 praggy-VirtualBox NetworkManager[705]: <info>  [1508018695.6957] manager: WWAN hardware radio set enabled
+Oct 14 17:04:56 praggy-VirtualBox systemd[1]: Created slice User Slice of lightdm.
+Oct 14 17:04:56 praggy-VirtualBox systemd[1]: Started Session c1 of user lightdm.
+Oct 14 17:04:56 praggy-VirtualBox systemd[1]: Starting User Manager for UID 108...
+Oct 14 17:04:56 praggy-VirtualBox systemd[1197]: Reached target Timers.
+Oct 14 17:04:56 praggy-VirtualBox systemd[1197]: Reached target Paths.
+Oct 14 17:04:56 praggy-VirtualBox systemd[1197]: Reached target Sockets.
+Oct 14 17:04:56 praggy-VirtualBox systemd[1197]: Reached target Basic System.
+Oct 14 17:04:56 praggy-VirtualBox systemd[1197]: Reached target Default.
+Oct 14 17:04:56 praggy-VirtualBox systemd[1197]: Startup finished in 196ms.
+Oct 14 17:04:56 praggy-VirtualBox systemd[1]: Started User Manager for UID 108.
+Oct 14 17:04:59 praggy-VirtualBox org.a11y.atspi.Registry[1231]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Oct 14 17:05:01 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Oct 14 17:05:01 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'
+Oct 14 17:05:02 praggy-VirtualBox systemd[1]: Starting Daemon for power management...
+Oct 14 17:05:02 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 14 17:05:02 praggy-VirtualBox systemd[1]: Started Daemon for power management.
+Oct 14 17:05:02 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service'
+Oct 14 17:05:02 praggy-VirtualBox systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Oct 14 17:05:02 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Oct 14 17:05:02 praggy-VirtualBox systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Oct 14 17:05:02 praggy-VirtualBox rtkit-daemon[1322]: Successfully called chroot.
+Oct 14 17:05:02 praggy-VirtualBox rtkit-daemon[1322]: Successfully dropped privileges.
+Oct 14 17:05:02 praggy-VirtualBox rtkit-daemon[1322]: Successfully limited resources.
+Oct 14 17:05:02 praggy-VirtualBox rtkit-daemon[1322]: Running.
+Oct 14 17:05:02 praggy-VirtualBox rtkit-daemon[1322]: Watchdog thread running.
+Oct 14 17:05:02 praggy-VirtualBox rtkit-daemon[1322]: Successfully made thread 1321 of process 1321 (n/a) owned by '108' high priority at nice level -11.
+Oct 14 17:05:02 praggy-VirtualBox rtkit-daemon[1322]: Supervising 1 threads of 1 processes of 1 users.
+Oct 14 17:05:02 praggy-VirtualBox rtkit-daemon[1322]: Canary thread running.
+Oct 14 17:05:03 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'
+Oct 14 17:05:03 praggy-VirtualBox systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Oct 14 17:05:03 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Oct 14 17:05:03 praggy-VirtualBox systemd[1]: Started Manage, Install and Generate Color Profiles.
+Oct 14 17:05:03 praggy-VirtualBox pulseaudio[1321]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Oct 14 17:05:03 praggy-VirtualBox pulseaudio[1321]: [pulseaudio] sink.c: Default and alternate sample rates are the same.
+Oct 14 17:05:03 praggy-VirtualBox rtkit-daemon[1322]: Supervising 1 threads of 1 processes of 1 users.
+Oct 14 17:05:03 praggy-VirtualBox rtkit-daemon[1322]: Successfully made thread 1342 of process 1321 (n/a) owned by '108' RT at priority 5.
+Oct 14 17:05:03 praggy-VirtualBox rtkit-daemon[1322]: Supervising 2 threads of 1 processes of 1 users.
+Oct 14 17:05:03 praggy-VirtualBox pulseaudio[1321]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Oct 14 17:05:04 praggy-VirtualBox rtkit-daemon[1322]: Supervising 2 threads of 1 processes of 1 users.
+Oct 14 17:05:04 praggy-VirtualBox rtkit-daemon[1322]: Successfully made thread 1343 of process 1321 (n/a) owned by '108' RT at priority 5.
+Oct 14 17:05:04 praggy-VirtualBox rtkit-daemon[1322]: Supervising 3 threads of 1 processes of 1 users.
+Oct 14 17:05:04 praggy-VirtualBox rtkit-daemon[1322]: Successfully made thread 1345 of process 1345 (n/a) owned by '108' high priority at nice level -11.
+Oct 14 17:05:04 praggy-VirtualBox rtkit-daemon[1322]: Supervising 4 threads of 2 processes of 1 users.
+Oct 14 17:05:04 praggy-VirtualBox pulseaudio[1345]: [pulseaudio] pid.c: Daemon already running.
+Oct 14 17:05:04 praggy-VirtualBox pulseaudio[1321]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Oct 14 17:05:04 praggy-VirtualBox pulseaudio[1321]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Oct 14 17:05:04 praggy-VirtualBox pulseaudio[1321]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Oct 14 17:05:12 praggy-VirtualBox org.gtk.vfs.Daemon[1210]: A connection to the bus can't be made
+Oct 14 17:05:12 praggy-VirtualBox systemd[1]: Created slice User Slice of praggy.
+Oct 14 17:05:12 praggy-VirtualBox systemd[1]: Starting User Manager for UID 1000...
+Oct 14 17:05:12 praggy-VirtualBox systemd[1]: Started Session c2 of user praggy.
+Oct 14 17:05:12 praggy-VirtualBox systemd[1363]: Reached target Timers.
+Oct 14 17:05:12 praggy-VirtualBox systemd[1363]: Reached target Sockets.
+Oct 14 17:05:12 praggy-VirtualBox systemd[1363]: Reached target Paths.
+Oct 14 17:05:12 praggy-VirtualBox systemd[1363]: Reached target Basic System.
+Oct 14 17:05:12 praggy-VirtualBox systemd[1363]: Reached target Default.
+Oct 14 17:05:12 praggy-VirtualBox systemd[1363]: Startup finished in 155ms.
+Oct 14 17:05:12 praggy-VirtualBox systemd[1]: Started User Manager for UID 1000.
+Oct 14 17:05:15 praggy-VirtualBox org.ayatana.bamf[1519]: bamfdaemon start/running, process 1613
+Oct 14 17:05:15 praggy-VirtualBox org.a11y.Bus[1519]: ** (process:1623): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+Oct 14 17:05:15 praggy-VirtualBox org.a11y.Bus[1519]: Activating service name='org.a11y.atspi.Registry'
+Oct 14 17:05:15 praggy-VirtualBox org.a11y.Bus[1519]: Successfully activated service 'org.a11y.atspi.Registry'
+Oct 14 17:05:15 praggy-VirtualBox org.a11y.atspi.Registry[1632]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Oct 14 17:05:17 praggy-VirtualBox rtkit-daemon[1322]: Successfully made thread 1742 of process 1742 (n/a) owned by '1000' high priority at nice level -11.
+Oct 14 17:05:17 praggy-VirtualBox rtkit-daemon[1322]: Supervising 4 threads of 2 processes of 2 users.
+Oct 14 17:05:17 praggy-VirtualBox org.gnome.ScreenSaver[1519]: ** (gnome-screensaver:1729): WARNING **: Couldn't get presence status: The name org.gnome.SessionManager was not provided by any .service files
+Oct 14 17:05:17 praggy-VirtualBox pulseaudio[1742]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Oct 14 17:05:17 praggy-VirtualBox pulseaudio[1742]: [pulseaudio] sink.c: Default and alternate sample rates are the same.
+Oct 14 17:05:17 praggy-VirtualBox rtkit-daemon[1322]: Supervising 4 threads of 2 processes of 2 users.
+Oct 14 17:05:17 praggy-VirtualBox rtkit-daemon[1322]: Successfully made thread 1962 of process 1742 (n/a) owned by '1000' RT at priority 5.
+Oct 14 17:05:17 praggy-VirtualBox rtkit-daemon[1322]: Supervising 5 threads of 2 processes of 2 users.
+Oct 14 17:05:17 praggy-VirtualBox pulseaudio[1742]: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Oct 14 17:05:17 praggy-VirtualBox rtkit-daemon[1322]: Supervising 5 threads of 2 processes of 2 users.
+Oct 14 17:05:17 praggy-VirtualBox rtkit-daemon[1322]: Successfully made thread 1963 of process 1742 (n/a) owned by '1000' RT at priority 5.
+Oct 14 17:05:17 praggy-VirtualBox rtkit-daemon[1322]: Supervising 6 threads of 2 processes of 2 users.
+Oct 14 17:05:18 praggy-VirtualBox gnome-session[1667]: gnome-session-is-accelerated: llvmpipe detected.
+Oct 14 17:05:18 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Oct 14 17:05:18 praggy-VirtualBox systemd[1]: Starting Locale Service...
+Oct 14 17:05:19 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.locale1'
+Oct 14 17:05:19 praggy-VirtualBox systemd[1]: Started Locale Service.
+Oct 14 17:05:21 praggy-VirtualBox gnome-session[1667]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Oct 14 17:05:21 praggy-VirtualBox gnome-session[1667]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Oct 14 17:05:21 praggy-VirtualBox gnome-session[1667]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Oct 14 17:05:22 praggy-VirtualBox gnome-session[1667]: (process:2116): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+Oct 14 17:05:22 praggy-VirtualBox gnome-session[1667]: (process:2116): indicator-application-service-WARNING **: Name Lost
+Oct 14 17:05:26 praggy-VirtualBox gnome-session-binary[1667]: Entering running state
+Oct 14 17:05:26 praggy-VirtualBox pulseaudio[1742]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Oct 14 17:05:26 praggy-VirtualBox pulseaudio[1321]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Oct 14 17:05:27 praggy-VirtualBox dbus[636]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Oct 14 17:05:27 praggy-VirtualBox systemd[1]: Starting Disk Manager...
+Oct 14 17:05:27 praggy-VirtualBox udisksd[2182]: udisks daemon version 2.1.7 starting
+Oct 14 17:05:28 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Oct 14 17:05:28 praggy-VirtualBox systemd[1]: Started Disk Manager.
+Oct 14 17:05:28 praggy-VirtualBox udisksd[2182]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct 14 17:05:28 praggy-VirtualBox udisksd[2182]: Cleaning up mount point /media/praggy/VBOXADDITIONS_5.1.26_117224 (device 11:0 is not mounted)
+Oct 14 17:05:28 praggy-VirtualBox gnome-session[1667]: (gnome-software:2117): Gs-WARNING **: Failed to create permission org.freedesktop.packagekit.trigger-offline-update: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Action org.freedesktop.packagekit.trigger-offline-update is not registered
+Oct 14 17:05:28 praggy-VirtualBox gnome-session[1667]: (gnome-software:2117): Gs-WARNING **: Failed to create permission org.freedesktop.packagekit.trigger-offline-update: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Action org.freedesktop.packagekit.trigger-offline-update is not registered
+Oct 14 17:05:28 praggy-VirtualBox dbus[636]: [system] Activating service name='org.freedesktop.fwupd' (using servicehelper)
+Oct 14 17:05:28 praggy-VirtualBox org.gtk.vfs.AfcVolumeMonitor[1519]: Volume monitor alive
+Oct 14 17:05:29 praggy-VirtualBox kernel: [   67.743764] ISO 9660 Extensions: Microsoft Joliet Level 3
+Oct 14 17:05:29 praggy-VirtualBox kernel: [   68.440683] ISO 9660 Extensions: RRIP_1991A
+Oct 14 17:05:30 praggy-VirtualBox udisksd[2182]: Mounted /dev/sr0 at /media/praggy/VBOXADDITIONS_5.1.26_117224 on behalf of uid 1000
+Oct 14 17:05:33 praggy-VirtualBox org.freedesktop.fwupd[636]: (fwupd:2218): Fu-WARNING **: Failed to coldplug: UEFI firmware updating not supported
+Oct 14 17:05:33 praggy-VirtualBox dbus[636]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Oct 14 17:05:34 praggy-VirtualBox gnome-session[1667]: Nautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)
+Oct 14 17:05:36 praggy-VirtualBox gnome-session[1667]: ** (unity-fallback-mount-helper:2156): WARNING **: Can't call IsLocked() on the Unity.Session object: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.Unity.Session' on object at path /com/canonical/Unity/Session
+Oct 14 17:05:36 praggy-VirtualBox org.gnome.ScreenSaver[1519]: ** Message: Lost the name, shutting down.
+Oct 14 17:05:42 praggy-VirtualBox org.gnome.zeitgeist.Engine[1519]: ** (zeitgeist-datahub:2345): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+Oct 14 17:06:56 praggy-VirtualBox systemd[1]: Stopping User Manager for UID 108...
+Oct 14 17:06:56 praggy-VirtualBox systemd[1197]: Reached target Shutdown.
+Oct 14 17:06:56 praggy-VirtualBox systemd[1197]: Starting Exit the Session...
+Oct 14 17:06:56 praggy-VirtualBox systemd[1197]: Stopped target Default.
+Oct 14 17:06:56 praggy-VirtualBox systemd[1197]: Stopped target Basic System.
+Oct 14 17:06:56 praggy-VirtualBox systemd[1197]: Stopped target Sockets.
+Oct 14 17:06:56 praggy-VirtualBox systemd[1197]: Stopped target Paths.
+Oct 14 17:06:56 praggy-VirtualBox systemd[1197]: Stopped target Timers.
+Oct 14 17:06:56 praggy-VirtualBox systemd[1197]: Received SIGRTMIN+24 from PID 2448 (kill).
+Oct 14 17:06:56 praggy-VirtualBox systemd[1]: Stopped User Manager for UID 108.
+Oct 14 17:06:56 praggy-VirtualBox systemd[1]: Removed slice User Slice of lightdm.
+Oct 14 17:17:02 praggy-VirtualBox CRON[2678]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 14 17:19:39 praggy-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 14 17:19:39 praggy-VirtualBox systemd-tmpfiles[2701]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Oct 14 17:19:39 praggy-VirtualBox systemd[1]: Started Cleanup of Temporary Directories.
+Oct 14 17:19:47 praggy-VirtualBox /usr/lib/snapd/snapd[635]: snapmgr.go:422: No snaps to auto-refresh found
+Oct 14 17:19:47 praggy-VirtualBox snapd[635]: 2017/10/14 17:19:47.639452 snapmgr.go:422: No snaps to auto-refresh found
+Oct 14 17:24:46 praggy-VirtualBox /usr/lib/snapd/snapd[635]: snapmgr.go:504: DEBUG: Next refresh scheduled for 2017-10-15 02:29:22.252934752 -0500 CDT.
